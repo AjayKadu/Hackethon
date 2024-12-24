@@ -1,0 +1,64 @@
+.mobile-details-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-details-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .mobile-details-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .mobile-details-card p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .mobile-image {
+    display: block;
+    max-width: 100%;
+    margin: 15px 0;
+    border-radius: 8px;
+  }
+  
+  .error {
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .place-order-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .place-order-button:hover {
+    background-color: #0056b3;
+  }

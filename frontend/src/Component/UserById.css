@@ -1,0 +1,75 @@
+.user-by-id-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .user-by-id-container h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Field */
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  .fetch-button {
+    padding: 10px 20px;
+    background-color: #6d82e0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .fetch-button:hover {
+    background-color: #2b319c;
+  }
+  
+  /* User Details */
+  .user-details {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .user-details .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* No User Message */
+  .no-user-message {
+    margin-top: 20px;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+  }

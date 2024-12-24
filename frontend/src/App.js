@@ -1,10 +1,17 @@
 import React from "react";
-import Login from "./Component/Login.jsx"
+
+import { BrowserRouter } from "react-router-dom";
+import Launcher from "./Component/Launcher.js";
 
 function App() {
   return (<>
-  
-  <Login />
+
+<BrowserRouter>
+   
+ <Launcher/>
+
+    
+</BrowserRouter>
   
   </>)
 }

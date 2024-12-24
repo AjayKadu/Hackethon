@@ -30,11 +30,12 @@ router.post("/login", (request, response) => {
     else {
       if (users.length == 0) response.status(404).send("No user found");
       else {
-        const { uname, email, mobile, role } = users[0];
+        const {id, uname, email, mobile, role } = users[0];
 
         response.json({
           status: "success",
           data: {
+            id,
             uname,
             email,
             mobile,

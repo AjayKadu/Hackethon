@@ -22,7 +22,8 @@ const DoLogin = () => {
     axios.post(`http://localhost:4444/user/login`, credentials)
          .then((result)=>{
              
-           console.log(result);
+           sessionStorage.setItem("id", result.data.data.id);
+           console.log(result.data.data.id);
               
          })
 
